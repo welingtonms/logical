@@ -4,7 +4,7 @@ I have always been fascinated by the simplicity of logical operations and how yo
 
 That's why I wrote this library, to provides a toolset to perform and chain logical operations.
 
-It follows Javascript's default [_truthy_](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) and [_falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)_ definitions.
+It follows Javascript's default [_truthy_](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) and [_falsy_](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)_ definitions.
 
 ## Instalation
 

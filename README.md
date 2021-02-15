@@ -1,5 +1,9 @@
 # @cheesebit/logical
 
+
+[![Coverage Status](https://img.shields.io/coveralls/github/cheesebit/logical?style=flat-square)](https://coveralls.io/github/cheesebit/logical)
+[![npm package](https://img.shields.io/npm/v/@cheesebit/logical?style=flat-square)](https://www.npmjs.com/package/@cheesebit/logical)
+
 I have always been fascinated by the simplicity of logical operations and how you can express complex logical structures using it.
 
 That's why I wrote this library, to provides a toolset to perform and chain logical operations.

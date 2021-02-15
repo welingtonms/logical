@@ -1,6 +1,6 @@
 {
   "name": "@cheesebit/logical",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Provides a toolset to perform logical operations.",
   "browser": "dist/logical.umd.js",
   "main": "dist/logical.cjs.js",

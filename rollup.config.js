@@ -10,12 +10,6 @@ module.exports = [
   {
     input: 'src/index.js',
     output: [
-      {
-        name: 'logical',
-        file: pkg.browser,
-        format: 'umd',
-      },
-      { name: 'logical', file: pkg.main, format: 'cjs' },
       { name: 'logical', file: pkg.module, format: 'es' },
     ],
     plugins: [

@@ -2,9 +2,7 @@
   "name": "@cheesebit/logical",
   "version": "1.1.0",
   "description": "Provides a toolset to perform logical operations.",
-  "browser": "dist/logical.umd.js",
-  "main": "dist/logical.cjs.js",
-  "module": "dist/logical.esm.js",
+  "module": "dist/logical.js",
   "files": [
     "dist"
   ],

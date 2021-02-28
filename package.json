@@ -1,6 +1,6 @@
 {
   "name": "@cheesebit/logical",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Provides a toolset to perform logical operations.",
   "module": "dist/logical.js",
   "files": [

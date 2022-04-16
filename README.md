@@ -1,4 +1,4 @@
-# @cheesebit/logical
+# logical
 
 
 [![Coverage Status](https://img.shields.io/coveralls/github/cheesebit/logical?style=flat-square)](https://coveralls.io/github/cheesebit/logical)

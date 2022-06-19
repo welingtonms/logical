@@ -11,8 +11,6 @@ on:
     workflow_dispatch:
 
 jobs:
-    test:
-        uses: ./.github/workflows/test.yaml
     build:
         needs: [test]
         runs-on: ubuntu-latest
@@ -27,8 +25,8 @@ jobs:
               uses: actions/setup-node@v1
               with:
                   node-version: ${{ matrix.node-version }}
-            - name: Install dependencies
-              run: yarn install --immutable # based on https://circleci.com/docs/2.0/yarn/
+            - name: Run tests
+              uses: ./.github/workflows/test.yml
             - name: Build
               run: yarn build
             - name: Generate .d.ts files

@@ -23,3 +23,11 @@ jobs:
               run: yarn install --immutable # based on https://circleci.com/docs/2.0/yarn/
             - name: Running unit tests
               run: yarn test
+            - name: Running code coverage
+              run: yarn coverage
+            - name: Coveralls
+              uses: coverallsapp/github-action@master
+              with:
+                  github-token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+            GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}

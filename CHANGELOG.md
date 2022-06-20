@@ -1,3 +1,15 @@
+## [1.3.1](https://github.com/welingtonms/logical/compare/v1.3.0...v1.3.1) (2022-06-20)
+
+
+### Bug Fixes
+
+* add env vars for release ([f86934a](https://github.com/welingtonms/logical/commit/f86934a8bdfd581790dec7500d6f8b82601a365d))
+* env variable to all steps ([9bdb90b](https://github.com/welingtonms/logical/commit/9bdb90b99b909256f2ea57f487fea15d0e7143c1))
+* fix push tags ([f7d07cd](https://github.com/welingtonms/logical/commit/f7d07cd0a93422a17c09f4dc515ef046d16f4348))
+* remove dist from repo ([e3f193f](https://github.com/welingtonms/logical/commit/e3f193fc51cdebb14756ccb926a258fb07f2a20e))
+* remove github assets ([4acfdd7](https://github.com/welingtonms/logical/commit/4acfdd71d4bdf9c73eab09a5e1387c315d992ee0))
+* remove unnecessary env var ([7eb31b3](https://github.com/welingtonms/logical/commit/7eb31b35e6f11cb3f24ba0b0ed8595bdd04b3943))
+
 # [1.3.0](https://github.com/welingtonms/logical/compare/v1.2.0...v1.3.0) (2022-06-19)
 
 

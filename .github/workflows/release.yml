@@ -20,6 +20,8 @@ jobs:
 
         steps:
             - uses: actions/checkout@v2
+              with:
+                  persist-credentials: false
             - name: Use Node.js ${{ matrix.node-version }}
               uses: actions/setup-node@v1
               with:
@@ -33,7 +35,7 @@ jobs:
             - name: Generate .d.ts files
               run: yarn generate-types
             - name: Release
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
               run: yarn release || true
-        env:
-            GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-            NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

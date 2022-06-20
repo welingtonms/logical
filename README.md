@@ -1,7 +1,7 @@
 # logical
 
-[![Coverage Status](https://img.shields.io/coveralls/github/cheesebit/logical?style=flat-square)](https://coveralls.io/github/cheesebit/logical)
-[![npm package](https://img.shields.io/npm/v/@cheesebit/logical?style=flat-square)](https://www.npmjs.com/package/@cheesebit/logical)
+[![Coverage Status](https://img.shields.io/coveralls/github/welingtonms/logical?style=flat-square)](https://coveralls.io/github/welingtonms/logical)
+[![npm package](https://img.shields.io/npm/v/@welingtonms/logical?style=flat-square)](https://www.npmjs.com/package/@welingtonms/logical)
 [![Run tests](https://github.com/welingtonms/logical/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/welingtonms/logical/actions/workflows/test.yml)
 
 I have always been fascinated by the simplicity of logical operations and how you can express complex logical structures using it.
@@ -12,7 +12,7 @@ It follows Javascript's default [_truthy_](https://developer.mozilla.org/en-US/d
 
 ## Instalation
 
-You can add this hook as a dependency by running `npm install @cheesebit/logical` or `yarn add @cheesebit/logical`.
+You can add this hook as a dependency by running `npm install @welingtonms/logical` or `yarn add @welingtonms/logical`.
 
 ## Supported operations
 
@@ -21,7 +21,7 @@ You can add this hook as a dependency by running `npm install @cheesebit/logical
 -   Accepts multiple parameters. Evaluation occurs from left to right.
 
 ```js
-import { and } from '@cheesebit/logical';
+import { and } from '@welingtonms/logical';
 
 and( true, true, true ); // true
 and( true, false ); // false
@@ -39,7 +39,7 @@ and( true, false ); // false
 -   Accepts multiple parameters. Evaluation occurs from left to right.
 
 ```js
-import { or } from '@cheesebit/logical';
+import { or } from '@welingtonms/logical';
 
 or( false, false, true ); // true
 or( false, false ); // false
@@ -57,7 +57,7 @@ or( false, false ); // false
 -   Accepts two parameters.
 
 ```js
-import { xor } from '@cheesebit/logical';
+import { xor } from '@welingtonms/logical';
 
 xor( true, false ); // true
 xor( false, false ); // false
@@ -75,7 +75,7 @@ xor( false, false ); // false
 -   Accepts one parameter.
 
 ```js
-import { not } from '@cheesebit/logical';
+import { not } from '@welingtonms/logical';
 
 xor( true, false ); // true
 xor( false, false ); // false
@@ -93,7 +93,7 @@ xor( false, false ); // false
 -   Accepts multiple parameters. Evaluation occurs from left to right.
 
 ```js
-import { nand } from '@cheesebit/logical';
+import { nand } from '@welingtonms/logical';
 
 nand( true, true, true ); // true
 nand( true, false ); // false
@@ -111,7 +111,7 @@ nand( true, false ); // false
 -   Accepts multiple parameters. Evaluation occurs from left to right.
 
 ```js
-import { nor } from '@cheesebit/logical';
+import { nor } from '@welingtonms/logical';
 
 nor( true, true, true ); // true
 nor( true, false ); // false
@@ -129,7 +129,7 @@ nor( true, false ); // false
 -   Accepts two parameters.
 
 ```js
-import { xnor } from '@cheesebit/logical';
+import { xnor } from '@welingtonms/logical';
 
 xnor( true, false ); // true
 xnor( false, false ); // false
@@ -151,7 +151,7 @@ First you need to call it with the appropriate initial value (which will depend 
 When you are done chaining operations, you can call `value()` to get the result.
 
 ```js
-import logical from '@cheesebit/logical';
+import logical from '@welingtonms/logical';
 
 console.log( logical( true ).value() ); // true
 console.log( logical( false ).value() ); // false

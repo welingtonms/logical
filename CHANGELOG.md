@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/welingtonms/logical/compare/v1.3.1...v1.3.2) (2022-06-20)
+
+
+### Bug Fixes
+
+* fix references to published lib ([934000c](https://github.com/welingtonms/logical/commit/934000c7cc7af36ce9c16141f8503038a7283aac))
+
 ## [1.3.1](https://github.com/welingtonms/logical/compare/v1.3.0...v1.3.1) (2022-06-20)
 
 

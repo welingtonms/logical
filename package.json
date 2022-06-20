@@ -14,9 +14,7 @@
 		"start": "npm run watch",
 		"coverage": "jest --coverage",
 		"watch": "rollup -c --watch",
-		"build": "rollup -c && npm run generate-types",
-		"postversion": "git push origin --tags",
-		"prepublishOnly": "npm run build",
+		"build": "rollup -c",
 		"generate-types": "tsc --build tsconfig.json",
 		"release": "semantic-release"
 	},

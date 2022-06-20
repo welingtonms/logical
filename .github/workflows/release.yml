@@ -20,8 +20,6 @@ jobs:
 
         steps:
             - uses: actions/checkout@v2
-              with:
-                  persist-credentials: false
             - name: Use Node.js ${{ matrix.node-version }}
               uses: actions/setup-node@v1
               with:
@@ -36,6 +34,9 @@ jobs:
               run: yarn generate-types
             - name: Release
               run: yarn release
+            # - name: Push tags
+            #   run: git push origin --tags
         env:
-            GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+            GH_TOKEN: ${{ secrets.GH_TOKEN }}
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
